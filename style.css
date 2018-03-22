@@ -25,7 +25,7 @@ body {
 #sub-header {
     background-color: rgb(255, 255, 255);
     height: 80px;
-    margin-top: -150px;
+    margin: -150px 0 75px 0;
 }
 
 #sub-header img {
@@ -53,9 +53,10 @@ body {
 }
 
 #left-content {
-    margin: 75px 0 0 0;
+   
     padding: 25px 25px;
     width: 25%;
+    display: inline-block;
 
 }
 
@@ -128,3 +129,114 @@ body {
     box-shadow: 1px 1px 1px #000000;
 }
 
+#right-content {
+    padding: 10px 0 0 0;
+    display: inline-block;
+    width: 65%;
+    vertical-align: top;
+}
+
+.alignbottom {
+    vertical-align: bottom;
+  
+}
+
+.font-small {
+    font-size: .8em;
+    vertical-align: top;
+    padding: 5px 0 0 0;
+}
+
+.display {
+    display: inline-block;
+}
+
+.phone {
+    display: inline-block;
+    text-align: right;
+    width: 155px;
+    padding: 0 0 0 25px;
+    background-image: url("images/phone.png");
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: 9px 12px;
+    margin: 0 0 0 280px;
+    
+}
+
+.toptext {
+    font-size: .5em;
+    color: #474747;
+
+}
+
+.middletext {
+    font-size: 1.2em;
+    color: #7ECDEC;
+    font-weight: bold;
+    margin: 5px 0 0 0;
+}
+
+#right-content h2 {
+    color: #286697;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+#right-content p {
+    margin: 10px 0;
+    font-size: .8em;
+}
+
+#right-content ul li {
+    list-style-type: disc;
+    margin: 10px 0 0 30px;
+    font-size: .8em;
+}
+
+#right-content a {
+    text-decoration: none;
+    color: #79a8e5;
+}
+
+.server {
+    width: 250px;
+    margin:  20px 0 20px 100px;
+    padding: 20px;
+    border: 3px #e2e2e2 solid;
+    background-color: #ffffff;
+}
+
+
+#right-content ol li {
+    list-style-type: decimal;
+    margin: 10px 0 0 30px;
+    font-size: .8em;
+}
+
+.big-three {
+    margin: 20px 0;
+    border: 5px #5283AB solid;
+    box-shadow: 1px 1px 1px #474747;
+    padding: 25px 0 20px 25px;    
+}
+
+.big-three img {
+    vertical-align: top;
+    display: inline-block;
+    margin: 0 15px 0 0;
+}
+
+.big-three h2 {
+    display: inline;
+    vertical-align: top;
+}
+
+.primary {
+    display: inline-block;
+    width: 325px;
+}
+
+.primary p {
+    font-size: .8em;
+}
