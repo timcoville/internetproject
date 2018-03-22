@@ -1,0 +1,59 @@
+body {
+    background-color: #eaedf2;
+}
+
+#wrapper {
+    width: 790px;
+    margin: 0 auto;
+    background-color: #ffffff;
+
+}
+
+#top-header {
+    
+  height: 150px;
+    background: linear-gradient(#2E6493 50%, #5283AB 75%, #2E6493);
+    
+}
+
+#top-header h2 {
+   padding: 100px 0 0 30px;
+   font-weight: 100;
+   font-size: 1.8em;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #ffffff;
+}
+
+#sub-header {
+    
+    background-color: rgb(255, 255, 255);
+    
+    height: 80px;
+    margin-top: -150px;
+}
+
+#sub-header img {
+    display:inline-block;
+    width:100px;
+    margin: 0 5px;
+    vertical-align: top;
+}
+
+#sub-header h1 {
+    width: 300px;
+    display: inline-block;
+    margin: 30px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5em;
+    color: #474747;
+ 
+}
+
+.blue {
+    color: #286697;
+}
+
+/*  background-image: url("images/globe.png");
+    background-size: 75px;
+    background-position: -55px 10px 0 0;
+    background-repeat: no-repeat;
