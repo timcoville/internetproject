@@ -1,33 +1,29 @@
 body {
-    background-color: #eaedf2;
+    background-color: #f0ffed;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #wrapper {
     width: 790px;
     margin: 0 auto;
-    background-color: #ffffff;
+    background-color: #EDEDED;
 
 }
 
 #top-header {
-    
-  height: 150px;
+    height: 150px;
     background: linear-gradient(#2E6493 50%, #5283AB 75%, #2E6493);
-    
 }
 
 #top-header h2 {
    padding: 100px 0 0 30px;
    font-weight: 100;
    font-size: 1.8em;
-   font-family: Arial, Helvetica, sans-serif;
    color: #ffffff;
 }
 
 #sub-header {
-    
     background-color: rgb(255, 255, 255);
-    
     height: 80px;
     margin-top: -150px;
 }
@@ -43,7 +39,6 @@ body {
     width: 300px;
     display: inline-block;
     margin: 30px 0;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 2.5em;
     color: #474747;
  
@@ -53,7 +48,83 @@ body {
     color: #286697;
 }
 
-/*  background-image: url("images/globe.png");
-    background-size: 75px;
-    background-position: -55px 10px 0 0;
-    background-repeat: no-repeat;
+.red {
+    color: red;
+}
+
+#left-content {
+    margin: 75px 0 0 0;
+    padding: 25px 25px;
+    width: 25%;
+
+}
+
+#left-content h3 {
+    font-weight: bold;
+    padding: 0 0 15px 0;
+    color: #474747;
+}
+
+
+#left-content p {
+    font-weight: 700;
+    color: #474747;
+    font-size: .8em;
+    margin: 0 0 25px 0;
+}
+
+.video-resource {
+    color: #ffffff;
+    margin: 5px 0;
+    padding: 10px 5px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 1px #474747;
+    width:90%;
+}
+
+.bluebg {
+    background: linear-gradient(#5283AB, #286697) ;
+}
+
+.orangebg {
+    background: linear-gradient(#E4A255
+    , #C97E3B) ;
+}
+
+#left-content hr {
+    width: 95%;
+    margin: 25px 5px 25px 0;
+}
+
+.advert {
+    width: 95%;
+    background-image: url("images/background.png");
+    background-position: 10%;
+    height: 300px;
+    text-align: center;
+    padding: 0 0 10px 0;
+}
+
+.advert h2 {
+    font-size: 1.3em;
+    color: #ffffff;
+    padding: 20px 0 10px 0;
+    line-height: 1.3em;
+}
+
+.advert img {
+    width: 50%;
+}
+
+.advert h4 {
+    background: linear-gradient(#7ECDEC, #11B8CE);
+    font-size: 1em;
+    margin: 10px 20px;
+    border-radius: 5px;
+    padding: 8px 0;
+    color: #ffffff;
+    box-shadow: 1px 1px 1px #000000;
+}
+
